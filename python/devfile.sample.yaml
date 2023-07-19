@@ -3,7 +3,7 @@ schemaVersion: 2.1.0
 metadata:
   name: python-hello-world
 components:
-  - name: preppython
+  - name: python-prep
     container:
       image: registry.redhat.io/devspaces/udi-rhel8:3.7
       volumeMounts:
@@ -29,7 +29,7 @@ commands:
 # - "Run Task" <Enter>
 # - select the correct items, probably "devfile"
 # - command list will be displayed, select one <Enter>
-  - id: customRun
+  - id: run
     exec:
       label: "Run the application"
       component: python
