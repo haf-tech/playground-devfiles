@@ -31,7 +31,7 @@ commands:
 # - "Run Task" <Enter>
 # - select the correct items, probably "devfile"
 # - command list will be displayed, select one <Enter>
-  - id: pip-venv-disable
+  - id: pip-venv-enable
     exec:
       commandLine: python -m venv ../.venv && . ../.venv/bin/activate
       workingDir: ${PROJECT_SOURCE}
