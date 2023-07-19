@@ -15,6 +15,11 @@ components:
     volume:
       size: 1G
 commands:
+# Translated to VS Code Tasks. 
+# - Use F1 in VS Code to see the commands/tasks
+# - "Run Task" <Enter>
+# - select the correct items, probably "devfile"
+# - command list will be displayed, select one <Enter>
   - id: customRun
     exec:
       label: "Run the application"

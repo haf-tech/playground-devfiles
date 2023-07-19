@@ -5,3 +5,7 @@
 ----
 https://<openshift_dev_spaces_fqdn>#<git_repository_url>?devfilePath=<relative_file_path> 
 ----
+
+== References
+
+* DevSpace 3.7 User Guide: link:https://access.redhat.com/documentation/en-us/red_hat_openshift_dev_spaces/3.7/html-single/user_guide/index[]
