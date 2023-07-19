@@ -41,7 +41,7 @@ commands:
       component: python
   - id: pip-venv-disable
     exec:
-      commandLine: ../.venv/bin/deactivate
+      commandLine: deactivate
       workingDir: ${PROJECT_SOURCE}
       group:
         kind: build
