@@ -1,2 +1,7 @@
 = Playground: Devfiles
 
+== Usage
+
+----
+https://<openshift_dev_spaces_fqdn>#<git_repository_url>?devfilePath=<relative_file_path> 
+----
