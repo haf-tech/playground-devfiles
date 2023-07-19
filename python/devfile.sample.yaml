@@ -3,6 +3,15 @@ schemaVersion: 2.1.0
 metadata:
   name: python-hello-world
 components:
+  - name: python-prep
+    container:
+      image: registry.redhat.io/devspaces/udi-rhel8:3.7
+      volumeMounts:
+        - name: venv
+          path: /home/user/.venv
+      memoryLimit: 2G
+      mountSources: true
+      command: ['python', 'install', 'black']
   - name: python
     container:
       image: registry.redhat.io/devspaces/udi-rhel8:3.7
