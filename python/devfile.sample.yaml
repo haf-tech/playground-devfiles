@@ -15,7 +15,7 @@ components:
     volume:
       size: 1G
 commands:
-  - id: run
+  - id: customRun
     exec:
       label: "Run the application"
       component: python
