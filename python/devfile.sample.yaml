@@ -3,7 +3,7 @@ schemaVersion: 2.1.0
 metadata:
   name: python-hello-world
 components:
-  - name: python-prep
+  - name: preppython
     container:
       image: registry.redhat.io/devspaces/udi-rhel8:3.7
       volumeMounts:
