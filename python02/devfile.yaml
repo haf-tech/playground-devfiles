@@ -2,6 +2,8 @@
 schemaVersion: 2.1.0
 metadata:
   name: python-simple-01
+  projectType: Python
+  language: Python
 components:
   - name: python
     container:
